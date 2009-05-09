@@ -1,9 +1,9 @@
 %define		_font_name	Nafees_Nastaleeq
-Summary:	Free fonts from Center for Research in Urdu Language Processing
-Summary(pl.UTF-8):	Wolnodostępne czcionki z Centrum Badań nad Przetwarzaniem Języka Urdu
+Summary:	Free font from Center for Research in Urdu Language Processing
+Summary(pl.UTF-8):	Wolnodostępna czcionka z Centrum Badań nad Przetwarzaniem Języka Urdu
 Name:		fonts-TTF-CRULP-Nafees_Nastaleeq
 Version:	1.02
-Release:	0.1
+Release:	0.2
 License:	MPL-like
 Group:		Fonts
 Source0:	http://www.crulp.org/Downloads/localization/fonts/NafeesNastaleeq/%{_font_name}_v%{version}.zip
@@ -29,7 +29,7 @@ Syed Anees-ul-Hassan.
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{ttffontsdir}
 
-install *.ttf $RPM_BUILD_ROOT%{ttffontsdir}
+install Nafees\ Nastaleeq\ v1.02.ttf $RPM_BUILD_ROOT%{ttffontsdir}/%{_font_name}.ttf
 
 %clean
 rm -rf $RPM_BUILD_ROOT
