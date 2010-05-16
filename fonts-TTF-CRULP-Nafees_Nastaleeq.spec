@@ -9,6 +9,7 @@ Group:		Fonts
 Source0:	http://www.crulp.org/Downloads/localization/fonts/NafeesNastaleeq/%{_font_name}_v%{version}.zip
 # Source0-md5:	34ca164ce011b682522431fc332c0cb6
 URL:		http://www.crulp.org/software/localization/Fonts/nafeesNastaleeq.html
+BuildRequires:	unzip
 Requires(post,postun):	fontpostinst
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
